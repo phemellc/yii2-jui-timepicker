@@ -1,0 +1,23 @@
+{
+    "name": "pheme/yii2-jui-timepicker",
+    "description": "Adds a timepicker widget to Yii2 JUI",
+    "type": "yii2-extension",
+    "keywords": ["yii2","pheme","jui","timepicker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aris Karageorgos",
+            "email": "aris@phe.me"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-jui": "*",
+        "bower-asset/jqueryui-timepicker-addon" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pheme\\jui\\": ""
+        }
+    }
+}
